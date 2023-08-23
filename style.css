@@ -1,10 +1,14 @@
+.navbar{
+    background-color:#f0fff0 ;
+}
 
-   
 
 .bar{
     background-color:#f0fff0 ;
-   
+    transform: scale(1.45);
 }
+
+
 
 .navbar img{
     width: 180px;
@@ -27,39 +31,65 @@
 .button-1 {
     color:white;
     text-decoration: none;
-    padding: 10px 25px;
+    font-size: 10px;
+    padding: 5px 15px;
     align-items: center;
-    gap: 10px; 
-    border-radius: 33px;
+    gap: 5px; 
+    border-radius: 20px;
     background: #21B573;
+    margin-left: 140px;
     
 }
 
 .pic1{
-    width: 554px;
-    height: 346px;
+    width: 400px;
+    height: 250px;
     flex-shrink: 0;
 }
 
 small{
     color: gray;
+    font-size: 5px;
+    padding-left: 140px;
   
 }
 
 .text h1{
     color: #000;
     font-family: Poppins;
-    font-size: 48px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: 70px;
+    padding-left: 140px;
     
 }
 .text1 {
     color: #21B573;
     font-family: Poppins;
-    font-size: 48px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: 70px;
+    
+}
+
+.card{
+    width: 270px;
+    height: 270px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+}
+
+.card img {
+    width: 66px;
+    height: 85px;
+    flex-shrink: 0;
+    
+}
+
+.card-body{
+    padding: 20px;
 }
