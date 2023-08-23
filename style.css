@@ -117,3 +117,7 @@
     height: 24px;
     flex-shrink: 0;
 }
+
+.ft{
+    transform: scale(1.45);
+}
